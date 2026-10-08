@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f8; color: #333; }
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+
+.header { background: #fff; padding: 20px 40px; border-bottom: 1px solid #e1e4e8; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.header h1 { font-size: 1.5rem; color: #2c3e50; }
+.header p { color: #7f8c8d; font-size: 0.9rem; }
+
+.main { flex: 1; max-width: 1000px; margin: 40px auto; padding: 0 20px; width: 100%; }
+.container, .card { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.header-actions h2 { font-size: 1.2rem; color: #2c3e50; }
+
+.tabla-simple { width: 100%; border-collapse: collapse; }
+.tabla-simple th, .tabla-simple td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+.tabla-simple th { background: #f8f9fa; font-weight: 600; color: #555; }
+
+.form-simple { display: flex; flex-direction: column; gap: 15px; }
+.form-simple label { display: flex; flex-direction: column; gap: 5px; font-weight: 500; font-size: 0.9rem; }
+.form-simple select, .form-simple input { padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; }
+.form-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 10px; }
+
+.btn-primary { background: #3498db; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; }
+.btn-primary:hover { background: #2980b9; }
+.btn-secondary { background: #95a5a6; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+.btn-small { background: #3498db; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 0.85rem; margin-right: 5px; }
+.btn-small.danger { background: #e74c3c; }
+
+.footer { text-align: center; padding: 20px; background: #fff; border-top: 1px solid #e1e4e8; color: #7f8c8d; font-size: 0.9rem; margin-top: auto; }
